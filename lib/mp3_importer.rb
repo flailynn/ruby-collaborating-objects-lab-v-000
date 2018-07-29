@@ -7,6 +7,7 @@ class MP3Importer
 
   def files
     string = Dir(self.path)
+    puts string
   end
 
   def import
