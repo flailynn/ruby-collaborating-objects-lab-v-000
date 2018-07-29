@@ -13,7 +13,7 @@ class MP3Importer
     Dir.chdir(self.path)
 
     #Grab all files in the directory that are mp3 format
-    file_array = Dir.glob("*.mp3")
+    self.files = Dir.glob("*.mp3")
 
 
     # binding.pry
