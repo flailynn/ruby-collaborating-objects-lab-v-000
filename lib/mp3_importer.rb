@@ -24,6 +24,8 @@ class MP3Importer
       song_details = filename.split(" - ")
 
     end
+
+    end
     binding.pry
   end
 
