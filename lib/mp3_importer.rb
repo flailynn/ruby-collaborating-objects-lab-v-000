@@ -1,11 +1,11 @@
 require 'pry'
 
 class MP3Importer
-  attr_accessor :path, :files
+  attr_accessor :path, :filenames
 
   def initialize(filepath)
     self.path = filepath
-    # self.files
+    #self. self.files
   end
 
   def files
