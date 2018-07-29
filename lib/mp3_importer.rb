@@ -16,7 +16,6 @@ class MP3Importer
     file_array = Dir.glob("*.mp3")
 
 
-    end
     # binding.pry
   end
 
