@@ -15,14 +15,7 @@ class MP3Importer
     #Grab all files in the directory that are mp3 format
     file_array = Dir.glob("*.mp3")
 
-    #For each file
-    file_array.each do |filename|
-      #Chop .mp3 of the name
-      filename.chomp!(".mp3")
-
-      #Split filename (string) into array
-      song_details = filename.split(" - ")
-
+    
     end
 
     end
