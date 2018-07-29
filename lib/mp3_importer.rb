@@ -9,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    string = Dir(self.path)
+    string = Dir.entries(self.path)
     binding.pry
     puts string
   end
