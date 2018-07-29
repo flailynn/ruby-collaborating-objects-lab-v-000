@@ -9,7 +9,8 @@ class MP3Importer
   end
 
   def files
-    #Change directory to the filepath provided on initialization
+    #Temporarily change directory to the path provided on initialization
+    #Directory will go back to current directory once block executes
     Dir.chdir(self.path) do
       #Grab all files in the directory that are mp3 format
       self.files = Dir.glob("*.mp3")
