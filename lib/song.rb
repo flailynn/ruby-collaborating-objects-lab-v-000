@@ -26,6 +26,8 @@ class Song
     #Add song to list of artist's songs
     song.artist.add_song(song)
 
+    #return song
+    song
 
   end
 end
