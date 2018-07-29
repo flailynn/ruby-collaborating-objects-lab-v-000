@@ -21,7 +21,7 @@ class MP3Importer
   end
 
   def import
-    Song.new()
+    #Song.new()
   end
 end
 
