@@ -11,7 +11,6 @@ class MP3Importer
   def files
     string = Dir.entries(self.path)
     #binding.pry
-    puts string
   end
 
   def import
