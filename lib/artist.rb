@@ -5,4 +5,8 @@ class Artist
     self.name = name
     self.songs = []
   end
+
+  def self.all
+    @@all
+  end
 end
