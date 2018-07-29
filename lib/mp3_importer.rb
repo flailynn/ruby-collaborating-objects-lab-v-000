@@ -10,7 +10,7 @@ class MP3Importer
 
   def files
     string = Dir.entries(self.path)
-    binding.pry
+    #binding.pry
     puts string
   end
 
@@ -19,4 +19,4 @@ class MP3Importer
   end
 end
 
-MP3Importer.new("./spec/fixtures/mp3s")
+#MP3Importer.new("./spec/fixtures/mp3s")
