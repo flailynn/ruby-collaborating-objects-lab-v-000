@@ -9,7 +9,8 @@ class MP3Importer
   end
 
   def files
-    string = Dir.entries(self.path)
+    Dir.chdir(self.path)
+    string = Dir.glob("*.mp3")
     #binding.pry
   end
 
