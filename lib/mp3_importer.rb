@@ -15,8 +15,6 @@ class MP3Importer
     #Grab all files in the directory that are mp3 format
     self.filenames = Dir.glob("*.mp3")
 
-
-   binding.pry
   end
 
   def import
