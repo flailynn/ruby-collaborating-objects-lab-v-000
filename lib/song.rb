@@ -13,12 +13,17 @@ class Song
     #Split filename (string) into array
     song_details = filename.split(" - ")
 
+    #Create local variables with song's name and artist
     artist_name = song_details[0]
-    song_name = song_details[0]
-    song_genre
+    song_name = song_details[1]
 
+    #Create new Song instance
     song = self.new(song_name)
+
+    #Set song's artist (find artist or create artist)
     song.artist = Artist.find_or_create_by_name(artist_name)
+
+    #Add song to list of artist's songs
     song.artist.add_song(song)
 
 
