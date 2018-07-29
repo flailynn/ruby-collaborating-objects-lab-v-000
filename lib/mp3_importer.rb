@@ -15,11 +15,11 @@ class MP3Importer
     #Grab all files in the directory that are mp3 format
     file_array = Dir.glob("*.mp3")
 
-    
+
     end
 
     end
-    binding.pry
+    # binding.pry
   end
 
   def import
