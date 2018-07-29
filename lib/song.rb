@@ -16,6 +16,7 @@ class Song
 
       #Split filename (string) into array
       song_details = filename.split(" - ")
+    end
 
   end
 end
