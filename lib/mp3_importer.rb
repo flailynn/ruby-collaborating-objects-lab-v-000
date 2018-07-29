@@ -1,4 +1,5 @@
 require 'pry'
+
 class MP3Importer
   attr_accessor :path
 
@@ -8,6 +9,7 @@ class MP3Importer
 
   def files
     string = Dir(self.path)
+    binding.pry
     puts string
   end
 
