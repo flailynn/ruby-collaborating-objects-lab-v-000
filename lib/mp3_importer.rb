@@ -13,7 +13,7 @@ class MP3Importer
     #Change directory to the filepath provided on initialization
     Dir.chdir(self.path) do
       #Grab all files in the directory that are mp3 format
-      self.files = Dir.glob(self.path + "*.mp3")
+      self.files = Dir.glob("*.mp3")
     end
   end
 
