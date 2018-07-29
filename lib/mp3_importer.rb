@@ -11,6 +11,7 @@ class MP3Importer
   def files
     Dir.chdir(self.path)
     file_array = Dir.glob("*.mp3")
+
     file_array.each do |filename|
       filename.chop
 
