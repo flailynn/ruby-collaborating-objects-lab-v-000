@@ -16,7 +16,7 @@ class MP3Importer
     self.files = Dir.glob("*.mp3")
 
 
-    # binding.pry
+   binding.pry
   end
 
   def import
