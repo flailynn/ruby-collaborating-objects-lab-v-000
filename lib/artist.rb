@@ -3,5 +3,6 @@ class Artist
 
   def initialize(name)
     self.name = name
+    self.songs = []
   end
 end
