@@ -9,11 +9,15 @@ class MP3Importer
   end
 
   def files
+    #Change directory to the filepath provided on initialization
     Dir.chdir(self.path)
+
+    #Grab all files in the directory that are mp3 format
     file_array = Dir.glob("*.mp3")
 
+    #Create song for each file
     file_array.each do |filename|
-      filename.chop
+      filename.chomp!(".mp3")
 
     end
     binding.pry
