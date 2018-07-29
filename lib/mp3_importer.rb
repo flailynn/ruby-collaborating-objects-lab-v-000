@@ -17,3 +17,5 @@ class MP3Importer
     Song.new()
   end
 end
+
+MP3Importer.new("./spec/fixtures/mp3s")
